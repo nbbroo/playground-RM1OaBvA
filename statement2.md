@@ -1,10 +1,6 @@
 # we love ASCII ART
 
 ```java runnable
-
-
-
-
 import java.util.*;
 import java.io.*;
 import java.math.*;
@@ -27,10 +23,10 @@ class Main {
         String dessinLettre[] = new String[H];
         String dessinMot[] = new String[H];
      
-          ligne[0]="  |            ( ( (                                   T      ";
-          ligne[1]="  |.===.     '. --- .'     ,,,,,       (_)-(_)        MMM     ";
-          ligne[2]="  {}o o{}   '  (> <) '    /(o o)/       (o o)        (qop)    ";
-          ligne[3]="oO--(-)--Oo oO--(-)--Oo oO--(-)--Oo ooO--(_)--Ooo oO--(x)--Oo ";
+          ligne[0]="  |            ( ( (                                  *      ";
+          ligne[1]="  |.===.     '. --- .'     ,,,,,      (_)-(_)       +++     ";
+          ligne[2]="  {}o o{}   '  (> <) '    /(o o)/      (o o)       (o p)    ";
+          ligne[3]="oO--(-)--Oo oO--(-)--Oo oO--(-)--Oo oO--(_)--Oo oO--(d)--Oo ";
           
         for (int i=0; i<longT; i++){
         lettre[i]  = Character.toString(T.charAt(i));
