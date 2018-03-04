@@ -14,7 +14,7 @@ class Main {
     public static void main(String args[]) {
     
            //###################################################    
- String T = "baccab"; // <--- Write your text here only abc works #
+ String T = "bacdcab"; // <--- Write your text here only abcd works #
            //###################################################
 
         int longT = T.length(); 
@@ -27,10 +27,10 @@ class Main {
         String dessinLettre[] = new String[H];
         String dessinMot[] = new String[H];
      
-          ligne[0]="  |            ( ( (                 ";
-          ligne[1]="  |.===.     '. --- .'     ,,,,,     ";
-          ligne[2]="  {}o o{}   '  (> <) '    /(o o)/    ";
-          ligne[3]="oO--(-)--Oo oO--(-)--Oo oO--(-)--Oo  ";
+          ligne[0]="  |            ( ( (                              ";
+          ligne[1]="  |.===.     '. --- .'     ,,,,,       (_)-(_)    ";
+          ligne[2]="  {}o o{}   '  (> <) '    /(o o)/       (o o)     ";
+          ligne[3]="oO--(-)--Oo oO--(-)--Oo oO--(-)--Oo ooO--(_)--Ooo ";
           
         for (int i=0; i<longT; i++){
         lettre[i]  = Character.toString(T.charAt(i));
