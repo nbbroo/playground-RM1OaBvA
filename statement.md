@@ -9,9 +9,9 @@ class Main {
 
     public static void main(String args[]) {
     
-    //#######################################################    
-        String T = "WE LOVE ASCII ART"; // <--- Write your text here 
-    //#######################################################
+           //##################################################    
+ String T = "WE LOVE ASCII ART"; // <--- Write your text here #
+           //##################################################
 
         int longT = T.length(); 
         int L = 4;
