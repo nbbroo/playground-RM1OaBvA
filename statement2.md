@@ -1,3 +1,7 @@
+# we love ASCII ART
+
+```java runnable
+
 import java.util.*;
 import java.io.*;
 import java.math.*;
@@ -56,3 +60,5 @@ class Main {
         }
 
 }}
+```
+# Try your self
