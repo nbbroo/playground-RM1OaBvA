@@ -10,9 +10,9 @@ class Main {
 
     public static void main(String args[]) {
     
-           //##################################################    
- String T = "bac"; // <--- Write your text here #
-           //##################################################
+           //###################################################    
+ String T = "bac"; // <--- Write your text here only abc works #
+           //###################################################
 
         int longT = T.length(); 
         int L = 13;
