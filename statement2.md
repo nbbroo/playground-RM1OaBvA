@@ -3,6 +3,8 @@
 ```java runnable
 
 
+
+
 import java.util.*;
 import java.io.*;
 import java.math.*;
@@ -12,11 +14,11 @@ class Main {
     public static void main(String args[]) {
     
            //###################################################    
- String T = "bac"; // <--- Write your text here only abc works #
+ String T = "baccab"; // <--- Write your text here only abc works #
            //###################################################
 
         int longT = T.length(); 
-        int L = 13;
+        int L = 12;
         int H = 4;
 
         String lettre[] = new String[longT];
@@ -25,10 +27,10 @@ class Main {
         String dessinLettre[] = new String[H];
         String dessinMot[] = new String[H];
      
-          ligne[0]="   |             ( ( (                  ";
-          ligne[1]="   |.===.      '. --- .'      ,,,,,     ";
-          ligne[2]="   {}o o{}    '  (> <) '     /(o o)/    ";
-          ligne[3]=" oO--(-)--Oo  oO--(-)--Oo  oO--(-)--Oo  ";
+          ligne[0]="  |            ( ( (                 ";
+          ligne[1]="  |.===.     '. --- .'     ,,,,,     ";
+          ligne[2]="  {}o o{}   '  (> <) '    /(o o)/    ";
+          ligne[3]="oO--(-)--Oo oO--(-)--Oo oO--(-)--Oo  ";
           
         for (int i=0; i<longT; i++){
         lettre[i]  = Character.toString(T.charAt(i));
