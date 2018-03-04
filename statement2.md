@@ -2,6 +2,7 @@
 
 ```java runnable
 
+
 import java.util.*;
 import java.io.*;
 import java.math.*;
@@ -24,10 +25,10 @@ class Main {
         String dessinLettre[] = new String[H];
         String dessinMot[] = new String[H];
      
-          ligne[0]="   |             ( ( (                    ";
-          ligne[1]="   |.===.      '. --- .'      ,,,,,       ";
-          ligne[2]="   {}o o{}    '  (> <) '     /(o o)/      ";
-          ligne[3]="ooO--(-)--OooooO--(-)--OooooO--(-)--Ooo-- ";
+          ligne[0]="   |             ( ( (                  ";
+          ligne[1]="   |.===.      '. --- .'      ,,,,,     ";
+          ligne[2]="   {}o o{}    '  (> <) '     /(o o)/    ";
+          ligne[3]=" oO--(-)--Oo  oO--(-)--Oo  oO--(-)--Oo  ";
           
         for (int i=0; i<longT; i++){
         lettre[i]  = Character.toString(T.charAt(i));
